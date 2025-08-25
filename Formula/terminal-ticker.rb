@@ -1,7 +1,7 @@
 class TerminalTicker < Formula
   desc "Always-visible crypto price in your Zsh prompt (Powerlevel10k)"
   homepage "https://github.com/mertkaradayi/terminal-ticker"
-  head "https://github.com/mertkaradayi/terminal-ticker.git", branch: "main"
+  head "https://github.com/mertkaradayi/terminal-ticker.git", branch: "dev"
 
   depends_on :macos
   uses_from_macos "python"
@@ -38,4 +38,3 @@ class TerminalTicker < Formula
     error_log_path var/"log/terminal-ticker.log"
   end
 end
-
